@@ -6,7 +6,7 @@ The code used in the Google Sheet's script editor can be found in WeatherAPICall
 
 Time-series Data Analysis:
 -
-Download the DataVisualization folder and open SIOTCoursework_Data_Analysis.ipynb in Jupyter Notebook in order to run the script and obtain the same graphs as in the report. 
+Download the DataVisualization folder and open SIOTCoursework_Data_Analysis.ipynb in Jupyter Notebook in order to run the script and obtain the same graphs as in the report. The folder already contains all the data so the script will read the .csv files automatically. 
 
 Weather App:
 -
