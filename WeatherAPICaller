@@ -1,0 +1,35 @@
+function myFunction() {
+  //var ss = SpreadsheetApp.getActiveSpreadsheet(); //get active spreadsheet
+  var ss = SpreadsheetApp.openByUrl("https://docs.google.com/spreadsheets/d/1AmvVROqx9FelKU0sq9xVBPiJ4zsb2deJXrNvWEJlfg4/edit#gid=0");
+  var sheet = ss.getSheetByName('data'); //get sheet by name from active spreadsheet
+  
+  
+  var apiKey = 'e4d862fe79906bb5d35cbb1a41a543c3'; //apiKey for weerlive weather api  
+  var url = 'https://api.openweathermap.org/data/2.5/weather?lat=51.5073&lon=-0.1277&units=metric&appid=e4d862fe79906bb5d35cbb1a41a543c3';  //api endpoint as a string 
+  
+  var response = UrlFetchApp.fetch(url); // get api endpoint
+  var json = response.getContentText(); // get the response content as text
+  var data = JSON.parse(json); //parse text into json
+  
+  Logger.log(data); //log data to logger to check
+  
+  var stats=[]; //create empty array to hold data points
+  var date = new Date(); //create new date for timestamp
+  
+  //The following lines push the parsed json into empty stats array
+    stats.push(date);//timestamp 
+    stats.push(data.main.temp); //temp
+    stats.push(data.main.temp_min);
+    stats.push(data.main.temp_max);
+    stats.push(data.main.humidity);
+    stats.push(data.wind.speed);
+    stats.push(data.main.pressure);
+    stats.push(data.clouds.all);
+    stats.push(data.sys.sunrise);
+    stats.push(data.sys.sunset);  
+     
+  //append the stats array to the active sheet 
+  
+  sheet.appendRow(stats);
+  // Note in Edit --> Current Project's Timers, I have set a 30 min trigger.
+}
