@@ -10,9 +10,9 @@ Download the DataVisualization folder and open SIOTCoursework_Data_Analysis.ipyn
 
 Weather App:
 -
-Donwload the project folder and open it using Android Studio. Make sure to have an API 26 Emulator or a smarthphone running Android Oreo.
+Download the project folder and open it using Android Studio. Make sure to have an API 26 Emulator or a smarthphone running Android Oreo.
 
 Steps App:
 -
-Donwload the project folder and open it using Android Studio. Make sure to have a smarthphone running Android Oreo. In this case, it is not recommended to use and Emulator as there will be no access to the step_count sensor that exisits in smartphones. 
+Download the project folder from https://drive.google.com/drive/folders/1M7r9VNY0-Da_rSZ-eydn6smkkdKylba2?usp=sharing and open it using Android Studio. Make sure to have a smarthphone running Android Oreo. In this case, it is not recommended to use and Emulator as there will be no access to the step_count sensor that exisits in smartphones. 
 
