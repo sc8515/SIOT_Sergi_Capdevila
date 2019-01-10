@@ -12,6 +12,8 @@ Weather App:
 -
 Download the project folder from [Google Drive](https://drive.google.com/drive/folders/17_ckHAPXFfEpJq3NY8VKTbrM1lNQBAuY?usp=sharing) and open it using Android Studio. Make sure to have an API 26 Emulator or a smarthphone running Android Oreo.
 
+If you wish to just read the code, you will be able to find it in this GitHub under [Weather App](https://github.com/sc8515/SIOT_Sergi_Capdevila/tree/master/Weather%20App)
+
 Credit: [Open-sourced Weather App](https://androstock.com/tutorials/create-a-weather-app-on-android-android-studio.html)
 
 Steps App:
@@ -21,3 +23,6 @@ Download the project folder from [Google Drive](https://drive.google.com/drive/f
 Note:
 - 
 Google Drive is used to store the Android Studio Projects, as github does not allow for more than 100 files to be uploaded at a time, and each project has over 2600 files. 
+
+
+If you wish to just read the code, you will be able to find it in this GitHub under [Steps App](https://github.com/sc8515/SIOT_Sergi_Capdevila/tree/master/Steps%20App)
